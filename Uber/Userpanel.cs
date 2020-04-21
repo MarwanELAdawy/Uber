@@ -42,5 +42,12 @@ namespace Uber
             client_history ch = new client_history();
                 ch.Show();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            showcars sc = new showcars();
+            sc.Show();
+            this.Hide();
+        }
     }
 }

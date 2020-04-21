@@ -112,6 +112,12 @@
     <Compile Include="Report_Driver.Designer.cs">
       <DependentUpon>Report_Driver.cs</DependentUpon>
     </Compile>
+    <Compile Include="showcars.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="showcars.Designer.cs">
+      <DependentUpon>showcars.cs</DependentUpon>
+    </Compile>
     <Compile Include="Trip.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -185,6 +191,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Report_Driver.resx">
       <DependentUpon>Report_Driver.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="showcars.resx">
+      <DependentUpon>showcars.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Trip.resx">
       <DependentUpon>Trip.cs</DependentUpon>

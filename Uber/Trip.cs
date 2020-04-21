@@ -19,9 +19,15 @@ namespace Uber
         public int c, c1, c2, res;
         public static int driverphone;
         public static int TripID;
+
         public Trip()
         {
             InitializeComponent();
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
 
         private void Trip_Load(object sender, EventArgs e)
